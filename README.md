@@ -1,4 +1,4 @@
-# Zygisk SElinux Permissive (Shell Script Version)
+# Magisk SElinux Permissive (Shell Script Version)
 
 This project provides a Magisk/KernelSU module for rooted Android devices that sets the system's SELinux mode to "Permissive" upon booting.
 
