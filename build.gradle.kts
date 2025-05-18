@@ -18,6 +18,7 @@ fun String.execute(currentWorkingDir: File = file("./")): String {
 val gitCommitCount = "git rev-list HEAD --count".execute().toInt()
 val gitCommitHash = "git rev-parse --verify --short HEAD".execute()
 
+
 // also the soname
 val moduleId by extra("Magisk_SElinux_Permissive")
 val moduleName by extra("Magisk SElinux Permissive")
